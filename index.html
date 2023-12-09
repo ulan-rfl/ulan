@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Photo Gallery</title>
+	<style type="text/css">
+		body{
+			background-image: url(bg.jpg);
+			background-position: center;
+			background-size: 3000px;
+		}
+		pre{
+			border: solid black;
+			border-width: 5px 5px 5px 5px;
+			background: none;
+			text-align: center;
+			font-size: 25px;
+			font-family: Agency FB;
+		}
+		.intro{
+			background-color: #779aaf;
+			text-align: center;
+			font-family: Arial;
+		}
+		.container{
+			display: flex;
+		}
+		.container .items{
+			background-color: #92bbb4;
+			width: 350px;
+			margin-top: 10px;
+			margin-right: auto;
+			margin-bottom: 10px;
+			margin-left: 10px;
+			padding: 10px;
+			font-family: Arial;
+		}
+		h3{
+			text-align: center;
+			font-size: 25px;
+			font-family: Agency FB;
+		}
+		.container .image{
+			background-color: #92bbb4;
+			width: 350px;
+			margin-top: 10px;
+			margin-right: auto;
+			margin-bottom: 10px;
+			margin-left: 10px;
+			padding: 10px;
+			padding: 10px;
+			text-align: center;
+			font-family: Arial;
+		}
+		#comments{
+			height: 70px;
+			width: 1300px;
+		}
+		#CT{
+			background-color: #779aaf;
+			text-align: center;
+			font-size: 17px;
+			font-family: Arial;
+		}
+		.Source{
+			background-color: #779aaf;
+			text-align: center;
+			font-family: Arial;
+		}
+	</style>
+</head>
+<body>
+<pre>
+	<h1 id="photo">⋆｡ﾟ☁︎✈︎ P  H  O  T  O   ⋆   G  A  L  L  E  R  Y🌤</h1>
+</pre>
+<div class="intro">
+	<h2>The Philippines, an archipelago consisting of more than 7,000 islands and islets, is home to a multitude of <em>marvelous sand beaches, rugged yet breathtaking volcanic mountain views, rich farmlands, and stunning coral reefs.</em> From its colorful public transportation, to its unique cuisine, vibrant festivals that showcase its colorful culture, and friendly locals, <em>there really is no place like the Philippines. </em></h2>
+</div>
+<br>
+<div class="container">
+	<div class="items">
+		<h3>Burot Beach</h3>
+		<ul>
+			<li>Found in Calatagan, Batangas, Burot Beach is one of the many coves that lace the western coast of Punta de Santiago.</li>
+			<li>A picturesque beach that features more baige-like than white sand, clear waters, and a tranquil atmosphere. Perfect for relaxation and beach activities.</li>
+		</ul>
+	</div>
+	<div class="image">
+		<img src="mt.pinatubo.jpg" height="250" width="350">
+	</div>
+	<div class="items">
+		<h3>Hapao Rice Terraces</h3>
+		<ul>
+			<li>Located in the municipality of Hungduan, this is one of the five, as well as the longest, sites in Ifugao included in the UNESCO World Heritage list under cultural landscape category.</li>
+			<li>A majestic sight with its cascading layers of rice paddies, nestled amidst the mountains of the Cordillera region in the Philippines.</li>
+		</ul>
+	</div>
+	<div class="image">
+		<img src="apo.jpg" height="250" width="350">
+	</div>
+</div>
+<br>
+<div class="container">
+		<div class="image">
+		<img src="Burot Beach.jpg" height="250" width="350">
+	</div>
+	<div class="items">
+		<h3>Mt. Pinatubo</h3>
+		<ul>
+			<li>An active stratovolcano in the Zambales Mountains, located on the tripoint boundary of the Philippine provinces of Zambales, Tarlac, and Pampanga, all in Central Luzon on the northern island of Luzon.</li>
+			<li>It is known for its devastating eruption in June 15, 1991, which caused widespread destruction and had significant impacts on the environment and climate.</li>
+		</ul>
+	</div>
+	<div class="image">
+		<img src="hapao.jpg" height="250" width="350">
+	</div>
+	<div class="items">
+		<h3>Apo Reef</h3>
+		<ul>
+			<li>The second largest contiguous coral reef system in the world,  right after the Great Barrier Reef of Australia, and the largest in the Philippines.</li>
+			<li>Apo Reef, located off the coast of Occidental Mindoro and in the Coral Triangle, consisting of two isolated coral reefs separated by a 30-meter deep channel, is home to clear waters with an astounding biodiversity of marine life.</li>
+		</ul>
+	</div>
+</div>
+<br>
+	<p id="CT"><strong>Hey, what do you think of these featured places? Have you visited them before or plan on visiting them in the future? Let us know your thoughts!</strong></p>
+	<form action="/html/tags/html_form_tag_action.cfm" method="post">
+			<div>
+			<textarea name="comments" id="comments">
+			</textarea>
+			</div>
+		<input type="submit" value="Submit">
+	</form>
+<br>
+<div class="Source">
+<p><strong>Sources:</strong></p>
+	<p>Would you like to know more? Check out the 4 locations featured!</p>
+		<p><a href="https://www.thepoortraveler.net/2016/03/overnight-day-trip-burot-beach-resort-rates-calatagan-batangas-philippines/">Burot Beach</p>
+		<p><a href="https://www.klook.com/en-PH/activity/94219-mount-pinatubo-day-tour-manila/?spm=TNA_ActivityList.Activity_LIST&clickId=951c236208">Mount Pinatubo</p>
+		<p><a href="https://www.tripadvisor.com.ph/Attraction_Review-g294249-d3208819-Reviews-Hapao_Rice_Terraces-Banaue_Ifugao_Province_Cordillera_Region_Luzon.html">Hapao Rice Terraces</p>
+		<p><a href="https://www.scubadivermag.com/stunning-apo-reef-national-park/">Apo Reef</p>
+<br>
+<p><a href="#photo">Go Back to the Top. ⇡</a></p>
+</div>
+</body>
+</html>
